@@ -8,4 +8,10 @@
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
 
-yourckeygoeshere = Host
+Maconha0420 = Host
+BiellMX = HeadAdmin
+Diolko = HeadAdmin
+Retroname = Retromeme
+Jhonatan2701 = GameMaster
+Wife = Amora
+Kosolov325 = Kosolov

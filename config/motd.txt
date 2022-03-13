@@ -1,5 +1,9 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<h1><b>Bem vindos ao Maconha Station Reborn 2.0!</b></h1>
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<p><small>com 98% menos explosões e retromemes</small></p>
+ 
+<p><b>Esse servidor requer que você tenha o mínimo de capacidade para roleplay;</b></p>
+ 
+<p><i><mark>Entre em nosso discord!</mark> | <b><a href="https://discord.gg/qvptWyYS">Click Aqui!</a></b> |</i></p>
