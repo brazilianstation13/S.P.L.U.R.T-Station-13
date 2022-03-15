@@ -14,4 +14,8 @@ Diolko = HeadAdmin
 Retroname = Retromeme
 Jhonatan2701 = GameMaster
 Wife = Amora
+
+# Temporarioow, pode me tirar depois tá?
+Aypa = C0der
+
 Kosolov325 = Kosolov
