@@ -1,0 +1,11 @@
+{
+    "map_name": "KSS14",
+    "map_path": "map_files/KSS14",
+    "map_file": "KSS14.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "whiteship_box",
+	    "emergency": "emergency_box"
+    }
+}
