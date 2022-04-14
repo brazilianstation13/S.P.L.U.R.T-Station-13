@@ -124,7 +124,7 @@
 "ar" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "as" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -135,7 +135,7 @@
 /obj/structure/table,
 /obj/item/storage/part_replacer,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "au" = (
 /obj/machinery/light{
 	dir = 4;
@@ -423,7 +423,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "bk" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -519,7 +519,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
-/area/space)
+/area/maintenance/solars/port/fore)
 "bw" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8
@@ -701,7 +701,6 @@
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
 "bP" = (
@@ -1061,9 +1060,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/components/binary/volume_pump,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 5
-	},
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
 "cQ" = (
@@ -1457,7 +1453,7 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "dV" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1516,9 +1512,6 @@
 "ef" = (
 /obj/structure/cable{
 	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 10
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
@@ -1932,7 +1925,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "fi" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable{
@@ -2522,7 +2515,7 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "gN" = (
 /obj/machinery/camera{
 	dir = 1
@@ -2617,7 +2610,7 @@
 	},
 /obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "hb" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
@@ -2652,7 +2645,7 @@
 /area/maintenance/starboard/aft)
 "hf" = (
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "hg" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/structure/cable{
@@ -2798,7 +2791,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
-/area/space)
+/area/maintenance/solars/port/fore)
 "hC" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers,
 /turf/open/floor/engine,
@@ -2988,10 +2981,12 @@
 /turf/open/floor/engine/n2,
 /area/engineering/main/reactor_core)
 "id" = (
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
 /obj/machinery/door/airlock/atmos{
 	name = "Turbine Access";
 	req_access_txt = "32"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
@@ -3325,7 +3320,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "iS" = (
 /obj/structure/table,
 /obj/item/assembly/prox_sensor{
@@ -4108,7 +4103,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
 "kR" = (
@@ -4129,7 +4123,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "kT" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4171,7 +4165,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "kZ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
@@ -4219,7 +4213,7 @@
 /obj/structure/table,
 /obj/item/wrench,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "lh" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -4303,7 +4297,7 @@
 /obj/machinery/power/terminal,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "lt" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/light{
@@ -4391,7 +4385,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "lH" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
@@ -4621,7 +4615,7 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "ms" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 8
@@ -4801,7 +4795,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "mO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
@@ -4867,7 +4861,6 @@
 /turf/open/floor/plating,
 /area/security/warden)
 "mY" = (
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_interior,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -5097,7 +5090,7 @@
 	name = "backup power monitoring console"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "nE" = (
 /obj/structure/rack,
 /obj/item/tank/jetpack/carbondioxide/eva,
@@ -5944,7 +5937,6 @@
 /turf/open/floor/plasteel,
 /area/science)
 "pS" = (
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_interior,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -6114,7 +6106,7 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "qr" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -9137,7 +9129,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "yp" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/plasteel/yellowsiding{
@@ -9403,7 +9395,7 @@
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "zc" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -9789,7 +9781,7 @@
 	req_access_txt = "11"
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/maintenance/solars/port/fore)
 "zZ" = (
 /obj/structure/table/wood/poker,
 /obj/item/clothing/mask/cigarette/cigar{
@@ -9897,10 +9889,6 @@
 /obj/item/folder/white,
 /turf/open/floor/plasteel,
 /area/science)
-"Ap" = (
-/obj/machinery/atmospherics/components/binary/volume_pump/on/layer3,
-/turf/closed/wall/r_wall,
-/area/maintenance/disposal/incinerator)
 "Aq" = (
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
@@ -10159,7 +10147,7 @@
 /obj/item/storage/belt,
 /obj/item/storage/belt,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "AW" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -10524,7 +10512,6 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "BT" = (
-/obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_atmos,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -10617,7 +10604,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Cg" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Tech Storage";
@@ -10858,7 +10845,7 @@
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
 "CM" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "CN" = (
@@ -11394,7 +11381,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Em" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -11501,7 +11488,7 @@
 	icon_state = "0-2"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "EA" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 1
@@ -12030,7 +12017,7 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "FU" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/plasteel,
@@ -12241,7 +12228,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "GC" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plating,
@@ -12988,7 +12975,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "IB" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -14199,7 +14186,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "LO" = (
 /obj/machinery/computer/card{
 	dir = 8
@@ -14607,9 +14594,6 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
@@ -15283,7 +15267,7 @@
 	icon_state = "4-8"
 	},
 /turf/closed/wall/r_wall,
-/area/space)
+/area/maintenance/solars/port/fore)
 "OJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 1
@@ -15514,7 +15498,7 @@
 "Pl" = (
 /obj/item/am_shielding_container,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Pm" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/plasteel,
@@ -15757,7 +15741,7 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Qa" = (
 /obj/machinery/holopad,
 /turf/open/floor/plasteel,
@@ -15840,7 +15824,7 @@
 	icon_state = "1-8"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Qp" = (
 /obj/machinery/door/airlock/command{
 	name = "Quartermaster";
@@ -16189,7 +16173,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Ri" = (
 /obj/machinery/door/poddoor/incinerator_atmos_main,
 /turf/open/floor/engine/vacuum,
@@ -16275,7 +16259,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Rt" = (
 /obj/item/fuel_rod,
 /obj/structure/pool/ladder{
@@ -16431,7 +16415,7 @@
 /obj/structure/closet/crate,
 /obj/machinery/light,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "RQ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -16641,7 +16625,6 @@
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
 "Sr" = (
@@ -16873,7 +16856,7 @@
 "SZ" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Tb" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -16931,7 +16914,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Ti" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -17009,7 +16992,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Ts" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
@@ -17479,10 +17462,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"UI" = (
-/obj/machinery/atmospherics/components/binary/volume_pump/on/layer1,
-/turf/closed/wall/r_wall,
-/area/maintenance/disposal/incinerator)
 "UJ" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -26
@@ -18046,7 +18025,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "Wj" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -18316,7 +18295,7 @@
 /area/hallway/primary/central)
 "WU" = (
 /turf/closed/wall/r_wall,
-/area/space)
+/area/maintenance/solars/port/fore)
 "WV" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -18559,9 +18538,6 @@
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 5
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 10
-	},
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
 "Xx" = (
@@ -18602,7 +18578,7 @@
 	pixel_y = -10
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/maintenance/solars/port/fore)
 "XD" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/plasteel,
@@ -19357,8 +19333,8 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
@@ -19440,7 +19416,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
-/area/space)
+/area/maintenance/solars/port/fore)
 "ZL" = (
 /obj/machinery/vending/wardrobe/hydro_wardrobe,
 /turf/open/floor/plasteel,
@@ -19453,9 +19429,6 @@
 /obj/machinery/button/door/incinerator_vent_atmos_main{
 	pixel_x = -6;
 	pixel_y = -24
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
@@ -30755,7 +30728,7 @@ WU
 WU
 WU
 WU
-Gt
+WU
 Gt
 Gt
 Gt
@@ -30917,7 +30890,7 @@ LN
 Th
 ls
 gM
-Gt
+WU
 QG
 QG
 QG
@@ -31079,7 +31052,7 @@ Wi
 GB
 Th
 FT
-Gt
+WU
 QG
 mb
 HP
@@ -31241,7 +31214,7 @@ dU
 kY
 hf
 nD
-Gt
+WU
 QG
 fP
 eo
@@ -31403,7 +31376,7 @@ kY
 Cf
 Pl
 Pl
-Gt
+WU
 Tm
 fP
 QG
@@ -31565,7 +31538,7 @@ zb
 Cf
 Pl
 Pl
-Gt
+WU
 QG
 fP
 QG
@@ -31727,7 +31700,7 @@ hf
 Cf
 Pl
 Pl
-Gt
+WU
 QG
 fP
 QG
@@ -31889,7 +31862,7 @@ hf
 OI
 mr
 WU
-Gt
+WU
 CN
 fP
 QG
@@ -32213,7 +32186,7 @@ hf
 hf
 hf
 RP
-Gt
+WU
 QG
 fP
 QG
@@ -32375,7 +32348,7 @@ AV
 at
 XC
 XC
-Gt
+WU
 QG
 fP
 QG
@@ -32530,14 +32503,14 @@ Gt
 Gt
 Gt
 Gt
-Gt
-Gt
-Gt
-Gt
-Gt
-Gt
-Gt
-Gt
+WU
+WU
+WU
+WU
+WU
+WU
+WU
+WU
 QG
 fP
 IR
@@ -40642,11 +40615,11 @@ DR
 DR
 IN
 Xw
-UI
+lW
 kQ
 BT
 Sq
-Ap
+lW
 id
 te
 fy
