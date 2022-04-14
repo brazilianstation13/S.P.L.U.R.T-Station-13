@@ -1,0 +1,87 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plating,
+/area/ruin/powered)
+"k" = (
+/obj/machinery/atmospherics/pipe/simple/orange{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/powered)
+"o" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/powered)
+"s" = (
+/obj/structure/window/plasma/reinforced/spawner/north,
+/turf/open/floor/engine,
+/area/ruin/powered)
+"E" = (
+/obj/machinery/atmospherics/components/binary/volume_pump{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/powered)
+"F" = (
+/turf/open/floor/engine,
+/area/ruin/powered)
+"J" = (
+/obj/machinery/light/floor,
+/turf/open/floor/circuit,
+/area/ruin/powered)
+"M" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/turf/open/floor/engine,
+/area/ruin/powered)
+"T" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8
+	},
+/obj/structure/window/plasma/reinforced/spawner/west,
+/turf/open/floor/engine,
+/area/ruin/powered)
+"W" = (
+/obj/machinery/atmospherics/components/binary/stormdrive_reactor,
+/turf/open/floor/engine,
+/area/ruin/powered)
+
+(1,1,1) = {"
+J
+a
+o
+a
+J
+"}
+(2,1,1) = {"
+a
+F
+E
+F
+a
+"}
+(3,1,1) = {"
+a
+M
+W
+s
+a
+"}
+(4,1,1) = {"
+a
+F
+T
+F
+a
+"}
+(5,1,1) = {"
+J
+a
+k
+a
+J
+"}
