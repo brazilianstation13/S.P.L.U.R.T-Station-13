@@ -825,16 +825,7 @@
 
 	else if(isitem(target))
 		var/obj/item/I = target
-		var/grab = 0
-
-		for(var/typepath in can_hold)
-			if(istype(I,typepath))
-				grab = 1
-				for(var/badpath in cannot_hold)
-					if(istype(I,badpath))
-						if(!user.emagged)
-							grab = 0
-							continue
+		var/grab = 1
 
 		//We can grab the item, finally.
 		if(grab)
