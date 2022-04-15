@@ -3867,6 +3867,7 @@
 #include "modular_maconha\code\modules\power\STORMDRIVE\cargo_storm.dm"
 #include "modular_maconha\code\modules\power\STORMDRIVE\control_rods.dm"
 #include "modular_maconha\code\modules\power\STORMDRIVE\stormdrive.dm"
+#include "modular_maconha\code\modules\shuttle\plasma_refiner.dm"
 #include "modular_sand\code\_globalvars\lists\misc.dm"
 #include "modular_sand\code\_globalvars\lists\objects.dm"
 #include "modular_sand\code\_onclick\hud\hud.dm"
